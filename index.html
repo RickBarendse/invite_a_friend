@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friends & Family</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+   
+    <div>
+      <header class="header1">
+        <h1>Welcome to lululemon's Friends & Family</h1>
+ 
+          <h2>Employee Name: <span> Rick Barendse</span></h2>
+          <h2> Employee Number: <span> 132615</span></h2>
+          <h2>Invitations Used: <span> 0</span></h2>
+          <h2>Invitations Remaining: <span> 3</span></h2>
+      </header>
+    </div>
+    <div class="wrapper">
+      <header class="header2">
+        <h1>Invite Friends & Family</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <form>
+            <label class="email-label" for="email">Enter Email:</label>
+            <input type="email" placeholder="Email Address" name="email" id="email" class="form-input">
+
+          </form>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Code"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <button id="generate" class="btn">Send Invitation</button>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
